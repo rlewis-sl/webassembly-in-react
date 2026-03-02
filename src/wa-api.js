@@ -1,4 +1,4 @@
-import {instantiateStreaming} from "assemblyscript/lib/loader";
+import {instantiateStreaming} from "@assemblyscript/loader";
 export default instantiateStreaming(
     fetch('./as-api.wasm')
 ).then(result => Object.assign({}, result.instance.exports, {
