@@ -12,7 +12,7 @@ Builds the WebAssembly module and runs the app in development mode.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload when you make edits with instant Hot Module Replacement (HMR).
+Changes will be instantly reflected via Hot Module Replacement (HMR) without a full page reload.
 
 ### `npm run build`
 
